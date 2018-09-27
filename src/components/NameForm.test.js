@@ -1,12 +1,12 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import App from "./App";
+import NameForm from "./NameForm";
 
 describe("NameForm", () => {
   let component = null;
 
   it("renders correctly", () => {
-    component = renderer.create(<App />);
+    component = renderer.create(<NameForm />);
   });
 
   it("matches snapshot", () => {

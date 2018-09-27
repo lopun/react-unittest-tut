@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameForm matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <h1>
+      Counter!
+    </h1>
+    <h2>
+      1
+    </h2>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      -
+    </button>
+  </div>
+  <hr />
+  <h1>
+    이름 목록
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      이름
+    </label>
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      등록
+    </button>
+  </form>
+  <ul>
+    <li>
+      lopun
+    </li>
+    <li>
+      Jihun Ko
+    </li>
+  </ul>
+</div>
+`;
